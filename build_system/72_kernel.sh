@@ -16,7 +16,7 @@ make -j$(nproc)
 
 make -j$(nproc) bzImage
 
-cp arch/x86/boot/bzImage /02_build_system/bzImage
+cp arch/x86/boot/bzImage /build_system/bzImage
 
 make INSTALL_HDR_PATH=dest headers_install
 find dest/include \( -name .install -o -name ..install.cmd \) -delete

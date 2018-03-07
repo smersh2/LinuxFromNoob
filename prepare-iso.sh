@@ -4,14 +4,14 @@
 . ./config.sh
 
 
-cp $LFS/02_build_system/bzImage $aa/files
+cp $LFS/build_system/bzImage $aa/files
 rm $aa/files/initramfs.img.gz
 
 mv $LFS/source $aa/files
 mv $LFS/tools $aa/files
 cd $LFS
 #Packs  current 'initramfs' folder structure in 'cpio.xz' archive.
-cp $aa/files/init $LFS | find . | cpio -H newc -ov | gzip -9 > $aa/files/initramfs.img.gz
+find . | cpio -H newc -ov | gzip -9 > $aa/files/initramfs.img.gz
 
 rm -rf $iso && mkdir $iso
 
