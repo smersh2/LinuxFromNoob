@@ -20,8 +20,8 @@ wget https://github.com/scopatz/nanorc/archive/master.zip
 
 unzip master.zip
 
-cp nanorc-master/* /root/.nano
-echo "include '/root/.nano/*'" >> /etc/nanorc
+#cp nanorc-master/* /root/.nano
+#echo "include '/root/.nano/*'" >> /etc/nanorc
 
 cd nanorc-master/
 
