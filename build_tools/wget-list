@@ -76,6 +76,7 @@ https://github.com/libuv/libuv/archive/v1.19.1/libuv-1.19.1.tar.gz
 http://llvm.org/releases/5.0.1/llvm-5.0.1.src.tar.xz
 https://sourceware.org/ftp/libffi/libffi-3.2.1.tar.gz
 http://www.linuxfromscratch.org/patches/blfs/svn/libxml2-2.9.7-python3_hack-1.patch
+https://wayland.freedesktop.org/releases/wayland-protocols-1.13.tar.xz
 https://wayland.freedesktop.org/releases/wayland-1.14.0.tar.xz
 http://xmlsoft.org/sources/libxml2-2.9.7.tar.gz
 https://www.x.org/archive//individual/proto/bigreqsproto-1.1.2.tar.bz2
