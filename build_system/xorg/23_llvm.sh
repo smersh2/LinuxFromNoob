@@ -1,12 +1,12 @@
 ################################################################
 #
 ################################################################
-. ./config3.sh
+. ./config2.sh
 
 cd $src
-rm -rf llvm-5.0.1.src
-tar -xvf llvm-5.0.1.src.tar.xz
-cd llvm-5.0.1.src
+rm -rf llvm-4.0.1.src
+tar -xvf llvm-4.0.1.src.tar.xz
+cd llvm-4.0.1.src
 
 mkdir -v build &&
 cd       build &&
@@ -23,4 +23,4 @@ make -j$(nproc)
 make install
 
 
-cd $aa
+cd $src && rm -rf llvm-4.0.1.src
